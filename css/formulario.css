@@ -1,0 +1,67 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        header {
+            background: rgb(210, 210, 215);
+            color: rgb(0, 0, 0);
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        nav a {
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            font-size: 20px;
+            align-items: center;
+        }
+
+        .menu-btn {
+            cursor: pointer;
+        }
+
+        /* Temas */
+        body.light {
+            background: #f4f4f4;
+            color: #000;
+        }
+
+        body.dark {
+            background: #222;
+            color: #fff;
+        }
+
+        body.corinthians {
+            background: #000000;
+            color: #ff0000;
+        }
+
+        /*================FORMULARIO====================*/
+        form {
+            padding: 1.5rem;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        input {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
